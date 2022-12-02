@@ -12,4 +12,20 @@ pub fn run() {
     );
 
     // named arguments
+    println!(
+        "value: {value} and we have value {value2}",
+        value = 1,
+        value2 = "man!"
+    );
+
+    // placehold traits
+    println!("binary: {:b} hex : {:x} octal: {:o}", 10, 10, 10);
+
+    // placeholder for debug trait(to print arrays , objects, tuple)
+
+    println!("{:?}", ("hycient", 2, true, 0.4));
+
+    // do basic maths
+
+    println!("20*20/3 = {}", 20 * 20 / 3)
 }
